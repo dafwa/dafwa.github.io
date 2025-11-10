@@ -1,7 +1,7 @@
 # dafwa.github.io projects
 
 ## Ujian Website SMKN 7 Makassar
-[Click Here](https://dafwa.github.io/ujian-website-smkn7/)
+[dafwa.github.io/ujian-website-smkn7](https://dafwa.github.io/ujian-website-smkn7/)
 
 ## Virtual Tour Website
-[Click Here](https://dafwa.github.io/virtual-tour/)
+[dafwa.github.io/virtual-tour](https://dafwa.github.io/virtual-tour/)
