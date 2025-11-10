@@ -1,0 +1,82 @@
+/* ====== Basic Reset ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", "Segoe UI", Roboto, sans-serif;
+}
+
+/* ====== Page Style ====== */
+body {
+  background: #24292e;      /* GitHub dark neutral */
+  color: #fafbfc;           /* GitHub light neutral for text */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  color: #5FED83;           /* GitHub green for heading */
+}
+
+p.subtitle {
+  margin-bottom: 2.5rem;
+  color: #8b949e;           /* softer grey for subtitle */
+}
+
+/* ====== Project Cards ====== */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 900px;
+}
+
+.card {
+  background: #2b3137;      /* a shade lighter than body background */
+  border: 1px solid #444c56; /* subtle border */
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #5FED83;     /* GitHub green on hover border */
+  box-shadow: 0 6px 20px rgba(95, 237, 131, 0.2); /* matching green hover glow */
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #5FED83;            /* consistent green heading in cards */
+}
+
+.card p {
+  margin-bottom: 1rem;
+  color: #8b949e;            /* grey for description */
+}
+
+.card a {
+  color: #4078c0;            /* GitHub blue for links */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* ====== Footer ====== */
+footer {
+  margin-top: 3rem;
+  color: #6a737d;            /* even softer grey for footer */
+  font-size: 0.9rem;
+}
