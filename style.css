@@ -74,6 +74,26 @@ p.subtitle {
   text-decoration: underline;
 }
 
+/* ====== Typewriter effect ====== */
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #5FED83;
+  width: 0;
+  animation: typing 1.5s steps(16, end) forwards,
+             blink 1s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 12.5ch; } /* match number of characters */
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
 /* ====== Footer ====== */
 footer {
   margin-top: 3rem;
